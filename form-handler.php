@@ -30,4 +30,4 @@
     //redirect to the 'thank you' page
     header('Location: index.html');
     }
-    ?>
+?>
