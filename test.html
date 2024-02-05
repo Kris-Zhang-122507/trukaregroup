@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<form action="https://api.web3forms.com/submit" method="POST">
+<form action="https://api.web3forms.com/submit" enctype="multipart/form-data" method="POST">
 
     <input type="hidden" name="access_key" value="063bc4df-bf46-4114-96b1-f51f2c2725d7">
 
     <input type="text" name="name" required>
     <input type="email" name="email" required>
     <textarea name="message" required></textarea>
-    <input type="file" id="file" name="file" accept="image/png, image/jpeg" />
+    <input type="file" name="attachment" />
     <button type="submit">Submit Form</button>
 
 </form>
