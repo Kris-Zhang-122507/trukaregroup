@@ -1,8 +1,14 @@
 <!DOCTYPE html>
+<html>
+<head>
+    <title>Tru-Kare -Get a quote</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
 <form action="https://api.web3forms.com/submit" enctype="multipart/form-data" method="POST">
 
     <input type="hidden" name="access_key" value="063bc4df-bf46-4114-96b1-f51f2c2725d7">
-
+    <div class="h-captcha" data-captcha="true"></div>
     <input type="text" name="name" required>
     <input type="email" name="email" required>
     <textarea name="message" required></textarea>
@@ -17,5 +23,6 @@
         frmvalidator.addValidation("email","email",
           "Please enter a valid email address");
     </script>
-
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+</body>
 </html>
