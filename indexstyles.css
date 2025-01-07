@@ -89,9 +89,7 @@ body {
 
 /* Main Section */
 .main__container {
-
   text-align: center;
-
   background: #f4f4f4;
 }
 
@@ -123,21 +121,18 @@ body {
 .footer__container {
   background: #333;
   color: #fff;
-  padding: 2rem 1rem;
+  padding: 4rem 1rem;
   width: 100%; /* Ensure it spans the entire width */
 
-  left: 0; /* Aligns to the left */
-  right: 0; /* Ensures no gaps on the right */
-  margin: 0; /* Removes any margin */
+ 
 }
 
 
 .footer__links {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .footer__link--wrapper {
@@ -199,7 +194,7 @@ body {
 
 .social__icons a {
   color: #fff;
-  margin: 0 10px;
+  margin: 0 20px;
   font-size: 1.2rem;
   transition: color 0.3s ease;
 }
